@@ -91,23 +91,24 @@ const MovieList = () => {
           </button>
         </div>
         <div className="sort-container">
-          <select value={sortBy} onChange={handleSortChange}>
-            <option value="default">Sort by</option>
-            <option value="title">A-Z</option>
-            <option value="release_date">Release Date (Recent to Oldest)</option>
-            <option value="rating">Rating (Highest to Lowest)</option>
+          <select value={sortBy} onChange={handleSortChange} label="Sort by">
+            <option value="default" label="Sort by">Sort by</option>
+            <option value="title" label="A-Z">A-Z</option>
+            <option value="release_date" label="Release Date (Recent to Oldest)">Release Date (Recent to Oldest)</option>
+            <option value="rating" label="Rating (Highest to Lowest)">Rating (Highest to Lowest)</option>
           </select>
         </div>
       </div>
 
       {mode === 'search' && (
         <div className="search-container">
-          <form onSubmit={handleSearch}>
+          <form onSubmit={handleSearch} label="Search Form">
             <input
               type="text"
               placeholder="Search for movies..."
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
+              label="Search"
             />
             <button type="submit">Search</button>
             {searchTerm && (

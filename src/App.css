@@ -78,7 +78,7 @@
 .nav-button {
   background-color: transparent;
   color: white;
-  border: 2px solid #01b4e4;
+  border: 2px solid #FFC09F;
   padding: 0.5rem 1rem;
   border-radius: 4px;
   cursor: pointer;
@@ -87,9 +87,9 @@
 }
 
 .nav-button:hover {
-  background-color: #01b4e4;
+  background-color: #d7263d;
 }
 
 .nav-button.active {
-  background-color: #01b4e4;
+  background-color: #d7263d;
 }
