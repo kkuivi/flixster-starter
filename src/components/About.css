@@ -1,0 +1,35 @@
+.about-section {
+  padding: 2rem;
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.about-section h2 {
+  color: #0d253f;
+  margin-bottom: 1rem;
+}
+
+.about-section p {
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+.attribution {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #eee;
+}
+
+.attribution a {
+  color: #01b4e4;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.attribution a:hover {
+  text-decoration: underline;
+} 
