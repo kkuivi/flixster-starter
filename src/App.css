@@ -1,15 +1,39 @@
 .App {
   text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #0d253f;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
   color: white;
   padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo-text {
+  color: #01b4e4;
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.App-footer {
+  background-color: #0d253f;
+  color: white;
+  padding: 20px;
+  margin-top: auto;
+}
+
+.App-footer p {
+  margin: 5px 0;
+  color: #01b4e4;
 }
 
 @media (max-width: 600px) {

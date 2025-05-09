@@ -1,0 +1,104 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  max-width: 800px;
+  width: 90%;
+  max-height: 90vh;
+  overflow-y: auto;
+  position: relative;
+}
+
+.modal-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  color: #0d253f;
+}
+
+.modal-body {
+  display: flex;
+  gap: 2rem;
+}
+
+.modal-poster {
+  flex-shrink: 0;
+  width: 300px;
+}
+
+.modal-poster img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.modal-info {
+  flex: 1;
+}
+
+.modal-info h2 {
+  margin: 0 0 1.5rem 0;
+  color: #0d253f;
+  font-size: 2rem;
+}
+
+.modal-details {
+  margin-bottom: 2rem;
+}
+
+.modal-runtime, .modal-release {
+  margin: 0.5rem 0;
+  color: #666;
+}
+
+.modal-genres {
+  margin-top: 1rem;
+}
+
+.genre-tag {
+  display: inline-block;
+  background: #0d253f;
+  color: white;
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  margin: 0.2rem;
+  font-size: 0.9rem;
+}
+
+.modal-overview h3 {
+  color: #0d253f;
+  margin-bottom: 0.5rem;
+}
+
+.modal-overview p {
+  line-height: 1.6;
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .modal-body {
+    flex-direction: column;
+  }
+  
+  .modal-poster {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+} 
