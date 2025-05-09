@@ -18,18 +18,18 @@ Deployed Application (**required**): [Flixster Deployed Site](https://flixster-s
     - [X] Poster image
     - [X] Votes
   - [X] Users can load more current movies by clicking a button at the bottom of the list, which automatically updates page with new movies (no reloading by clicking the browser's refresh button).
-- [ ] **Search Functionality**
+- [X] **Search Functionality**
   - [X] Users can use a search bar to search for movies by title.
-  - [ ] The search bar should include:
+  - [X] The search bar should include:
     - [X] Text input field
     - [X] Submit/Search button
-    - [ ] Clear button
+    - [X] Clear button
   - [X] Movies with a title containing the search query in the text input field are displayed in a grid view when the user either:
     - [X] Presses the Enter key
     - [X] Clicks the Submit/Search button
   - [X] Users can click the Clear button. When clicked:
     - [X] Most recent search results are cleared from the text input field and the grid view and all current movies are displayed in a grid view
-- [ ] **Design Features**
+- [X] **Design Features**
   - [X] Website implements all of the following accessibility features:
     - [X] Semantic HTML
     - [XX] [Color contrast](https://webaim.org/resources/contrastchecker/)
@@ -41,13 +41,13 @@ Deployed Application (**required**): [Flixster Deployed Site](https://flixster-s
     - [X] The pop-up window is centered in the screen and does not occupy the entire screen.
     - [X] The pop-up window has a shadow to show that it is a pop-up and appears floating on the screen.
     - [X] The backdrop of the pop-up appears darker or in a different shade than before. including:
-    - [ ] The pop-up displays additional details about the moving including:
+    - [X] The pop-up displays additional details about the moving including:
       - [X] Runtime in minutes
       - [X] Backdrop poster
       - [X] Release date
       - [X] Genres
       - [X] An overview
-  - [ ] Users can use a drop-down menu to sort movies.
+  - [X] Users can use a drop-down menu to sort movies.
     - [X] Drop-down allows movies to be sorted by:
       - [X] Title (alphabetic, A-Z)
       - [X] Release date (chronologically, most recent to oldest)
@@ -58,8 +58,8 @@ Deployed Application (**required**): [Flixster Deployed Site](https://flixster-s
     - [X] Banner section
     - [X] Search bar
     - [X] Movie grid
-    - [ ] About section
-    - [ ] Contact section
+    - [X] About section
+    - [X] Contact section
     - [X] Footer section
     - [ ] **VIDEO WALKTHROUGH SPECIAL INSTRUCTIONS**: To ease the grading process, please use the [color contrast checker](https://webaim.org/resources/contrastchecker/) to demonstrate to the grading team that text and background colors on your website have appropriate contrast. The Contrast Ratio should be above 4.5:1 and should have a green box surrounding it. 
   - [X] **Deployment**
