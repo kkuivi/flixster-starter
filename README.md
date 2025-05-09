@@ -13,7 +13,7 @@ Deployed Application (**required**): [Flixster Deployed Site](https://flixster-s
 - [X] **Display Movies**
   - [X] Users can view a list of current movies from The Movie Database API in a grid view.
     - [X] Movie tiles should be reasonably sized (at least 6 playlists on your laptop when full screen; large enough that the playlist components detailed in the next feature are legible).
-  - [ ] For each movie displayed, users can see the movie's:
+  - [X] For each movie displayed, users can see the movie's:
     - [X] Title
     - [X] Poster image
     - [X] Votes
@@ -24,46 +24,46 @@ Deployed Application (**required**): [Flixster Deployed Site](https://flixster-s
     - [X] Text input field
     - [X] Submit/Search button
     - [ ] Clear button
-  - [ ] Movies with a title containing the search query in the text input field are displayed in a grid view when the user either:
-    - [ ] Presses the Enter key
-    - [ ] Clicks the Submit/Search button
-  - [ ] Users can click the Clear button. When clicked:
-    - [ ] Most recent search results are cleared from the text input field and the grid view and all current movies are displayed in a grid view
+  - [X] Movies with a title containing the search query in the text input field are displayed in a grid view when the user either:
+    - [X] Presses the Enter key
+    - [X] Clicks the Submit/Search button
+  - [X] Users can click the Clear button. When clicked:
+    - [X] Most recent search results are cleared from the text input field and the grid view and all current movies are displayed in a grid view
 - [ ] **Design Features**
-  - [ ] Website implements all of the following accessibility features:
-    - [ ] Semantic HTML
-    - [ ] [Color contrast](https://webaim.org/resources/contrastchecker/)
-    - [ ] Alt text for images 
-  - [ ] Website implements responsive web design.
-    - [ ] Uses CSS Flexbox or CSS Grid
-    - [ ] Movie tiles and images shrink/grow in response to window size
-  - [ ] Users can click on a movie tile to view more details about a movie in a pop-up modal.
-    - [ ] The pop-up window is centered in the screen and does not occupy the entire screen.
-    - [ ] The pop-up window has a shadow to show that it is a pop-up and appears floating on the screen.
-    - [ ] The backdrop of the pop-up appears darker or in a different shade than before. including:
+  - [X] Website implements all of the following accessibility features:
+    - [X] Semantic HTML
+    - [XX] [Color contrast](https://webaim.org/resources/contrastchecker/)
+    - [X] Alt text for images 
+  - [X] Website implements responsive web design.
+    - [X] Uses CSS Flexbox or CSS Grid
+    - [X] Movie tiles and images shrink/grow in response to window size
+  - [X] Users can click on a movie tile to view more details about a movie in a pop-up modal.
+    - [X] The pop-up window is centered in the screen and does not occupy the entire screen.
+    - [X] The pop-up window has a shadow to show that it is a pop-up and appears floating on the screen.
+    - [X] The backdrop of the pop-up appears darker or in a different shade than before. including:
     - [ ] The pop-up displays additional details about the moving including:
-      - [ ] Runtime in minutes
-      - [ ] Backdrop poster
-      - [ ] Release date
-      - [ ] Genres
-      - [ ] An overview
+      - [X] Runtime in minutes
+      - [X] Backdrop poster
+      - [X] Release date
+      - [X] Genres
+      - [X] An overview
   - [ ] Users can use a drop-down menu to sort movies.
-    - [ ] Drop-down allows movies to be sorted by:
-      - [ ] Title (alphabetic, A-Z)
-      - [ ] Release date (chronologically, most recent to oldest)
-      - [ ] Rating (descending, highest to lowest)
-    - [ ] When a sort option is clicked, movies display in a grid according to selected criterion.
+    - [X] Drop-down allows movies to be sorted by:
+      - [X] Title (alphabetic, A-Z)
+      - [X] Release date (chronologically, most recent to oldest)
+      - [X] Rating (descending, highest to lowest)
+    - [X] When a sort option is clicked, movies display in a grid according to selected criterion.
   - [ ] Website displays:
-    - [ ] Header section
-    - [ ] Banner section
-    - [ ] Search bar
-    - [ ] Movie grid
+    - [X] Header section
+    - [X] Banner section
+    - [X] Search bar
+    - [X] Movie grid
     - [ ] About section
     - [ ] Contact section
-    - [ ] Footer section
+    - [X] Footer section
     - [ ] **VIDEO WALKTHROUGH SPECIAL INSTRUCTIONS**: To ease the grading process, please use the [color contrast checker](https://webaim.org/resources/contrastchecker/) to demonstrate to the grading team that text and background colors on your website have appropriate contrast. The Contrast Ratio should be above 4.5:1 and should have a green box surrounding it. 
-  - [ ] **Deployment**
-  - [ ] Website is deployed via Render.
+  - [X] **Deployment**
+  - [X] Website is deployed via Render.
   - [ ] **VIDEO WALKTHROUGH SPECIAL INSTRUCTIONS**: For ease of grading, please use the deployed version of your website when creating your walkthrough. 
 
 #### STRETCH FEATURES
