@@ -110,6 +110,19 @@ const MovieList = () => {
               onChange={(e) => setSearchTerm(e.target.value)}
             />
             <button type="submit">Search</button>
+            {searchTerm && (
+              <button 
+                type="button" 
+                onClick={() => {
+                  setSearchTerm('');
+                  setCurrentPage(1);
+                  fetchMovies(1, '');
+                }}
+                className="clear-button"
+              >
+                Clear
+              </button>
+            )}
           </form>
         </div>
       )}
