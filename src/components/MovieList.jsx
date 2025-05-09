@@ -14,7 +14,7 @@ const MovieList = () => {
 
   const fetchMovies = async (page, search = '') => {
     try {
-      const apiKey = process.env.VITE_API_KEY;
+      const apiKey = import.meta.env.VITE_API_KEY;
       const nowPlayingUrl = `https://api.themoviedb.org/3/movie/now_playing?api_key=${apiKey}&page=${page}`;
       const searchUrl = `https://api.themoviedb.org/3/search/movie?query=${search}&api_key=${apiKey}&page=${page}`;
       
